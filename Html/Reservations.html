@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rede Alimentar | Reservations</title>
+</head>
+<body>
+    <header>
+        <h1>Rede Alimentar</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="contact.html">Contact</a>
+            <a href="Menu.html">Menu</a>
+            <a href="Reservations.html">Reservations</a>
+            <a href="Gallery.html">Gallery</a>
+            <a href="Special.html">Special Offers</a>
+            <a href="Reviews.html">Reviews</a>
+            <a href="FAQ.html">FAQ</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Make a Reservation</h2>
+            <p>Reserve your table in advance to ensure a spot at our restaurant.</p>
+            <form action="submit_reservation.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required><br><br>
+
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required><br><br>
+
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required><br><br>
+
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" min="1" required><br><br>
+
+                <input type="submit" value="Reserve Now">
+            </form>
+        </section>
+    </main>
+    <footer>
+         <h3>Rede Alimentar</h3>
+           <p>
+            Kinaxixi, Rua Conselheiro Aires de Ornelas,
+            Casa No. 16, Luanda, Angola
+        </p>
+        <a href="../Html/contact.html">Contact Us</a>
+
+        <p>&copy; 2026 Rede Alimentar. All rights reserved.</p>
+        
+    </footer>
+</body>
+</html>

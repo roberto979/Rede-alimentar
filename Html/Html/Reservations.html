@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rede Alimentar | Reservations</title>
+    <link rel="stylesheet" href="../CSS/redelimentar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap"
+rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+
+<nav class="navbar">
+
+<a href="../Html/home.html" class="logo">
+REDE
+<span>ALIMENTAR</span>
+</a>
+
+<button class="menu-toggle" id="menuToggle">☰</button>
+
+<ul class="nav-links" id="navLinks">
+<li><a href="../Html/home.html">Home</a></li>
+<li><a href="../Html/aboutus.html">About</a></li>
+<li><a href="../Html/Menu.html">Menu</a></li>
+<li><a href="../Html/Gallery.html">Gallery</a></li>
+<li><a href="../Html/Reservations.html" class="active">Reservations</a></li>
+<li><a href="../Html/Special.html">Offers</a></li>
+<li><a href="../Html/Reviews.html">Reviews</a></li>
+<li><a href="../Html/Contact.html">Contact</a></li>
+</ul>
+
+</nav>
+
+</header>
+
+
+<main>
+
+<section class="page-intro section">
+
+<div class="section-heading centered">
+
+<p class="eyebrow">RESERVATIONS</p>
+
+<h1>
+Book a <span>Table</span>
+</h1>
+
+<div class="gold-line"></div>
+
+<p>
+Reserve your table and enjoy the Rede Alimentar experience.
+</p>
+
+</div>
+
+</section>
+
+
+<section class="reservation-page section">
+
+
+<div class="reservation-layout">
+
+
+<div class="reservation-form-container">
+
+<p class="eyebrow">
+YOUR RESERVATION
+</p>
+
+<h2>
+Reserve Your
+<span>Table</span>
+</h2>
+
+<div class="gold-line"></div>
+
+
+<form class="reservation-form" id="reservationForm">
+
+
+<div class="form-group">
+
+<label for="name">
+Full Name
+</label>
+
+<input type="text"
+id="name"
+name="name"
+placeholder="Your name"
+required>
+
+</div>
+
+
+<div class="form-row">
+
+<div class="form-group">
+
+<label for="email">
+Email
+</label>
+
+<input type="email"
+id="email"
+name="email"
+placeholder="Your email"
+required>
+
+</div>
+
+
+<div class="form-group">
+
+<label for="phone">
+Phone
+</label>
+
+<input type="tel"
+id="phone"
+name="phone"
+placeholder="Your phone"
+required>
+
+</div>
+
+</div>
+
+
+<div class="form-row">
+
+<div class="form-group">
+
+<label for="date">
+Date
+</label>
+
+<input type="date"
+id="date"
+name="date"
+required>
+
+</div>
+
+
+<div class="form-group">
+
+<label for="time">
+Time
+</label>
+
+<input type="time"
+id="time"
+name="time"
+required>
+
+</div>
+
+</div>
+
+
+<div class="form-group">
+
+<label for="guests">
+Number of Guests
+</label>
+
+<select id="guests"
+name="guests"
+required>
+
+<option value="">Select</option>
+<option value="1">1 Guest</option>
+<option value="2">2 Guests</option>
+<option value="3">3 Guests</option>
+<option value="4">4 Guests</option>
+<option value="5">5 Guests</option>
+<option value="6">6 Guests</option>
+<option value="7">7 Guests</option>
+<option value="8">8 Guests</option>
+
+</select>
+
+</div>
+
+
+<div class="form-group">
+
+<label for="requests">
+Special Requests
+</label>
+
+<textarea id="requests"
+name="requests"
+rows="5"
+placeholder="Any special requests?"></textarea>
+
+</div>
+
+
+<button type="submit"
+class="btn btn-gold">
+
+Book a Table
+
+</button>
+
+
+<p id="reservationMessage"
+class="form-message">
+</p>
+
+</form>
+
+</div>
+
+
+<div class="reservation-image image-frame">
+
+<img src="../media/pexels-bertellifotografia-17057009.jpg"
+alt="Dining experience at Rede Alimentar">
+
+</div>
+
+
+</div>
+
+</section>
+
+</main>
+
+
+<footer class="site-footer">
+
+<div class="footer-decoration">❖</div>
+
+<div class="footer-main">
+
+<div class="footer-brand">
+
+<a href="../Html/home.html" class="footer-logo">
+REDE
+<span>ALIMENTAR</span>
+</a>
+
+<p>
+Traditional Angolan flavours,
+prepared with care.
+</p>
+
+</div>
+
+<div class="footer-column">
+
+<h3>Visit Us</h3>
+
+<p>
+Kinaxixi,<br>
+Rua Conselheiro Aires de Ornelas,<br>
+Casa No. 16,<br>
+Luanda, Angola
+</p>
+
+</div>
+
+<div class="footer-column">
+
+<h3>Explore</h3>
+
+<a href="../Html/aboutus.html">About</a>
+<a href="../Html/Menu.html">Menu</a>
+<a href="../Html/Gallery.html">Gallery</a>
+<a href="../Html/Reservations.html">Reservations</a>
+
+</div>
+
+<div class="footer-column">
+
+<h3>Information</h3>
+
+<a href="../Html/Special.html">Offers</a>
+<a href="../Html/Reviews.html">Reviews</a>
+<a href="../Html/Contact.html">Contact</a>
+<a href="../Html/FAQ.html">FAQ</a>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+
+<p>© 2026 Rede Alimentar. All Rights Reserved.</p>
+
+<div class="footer-social">
+<a href="#">Instagram</a>
+<a href="#">Facebook</a>
+<a href="#">WhatsApp</a>
+</div>
+
+</div>
+
+</footer>
+
+<a href="#" class="whatsapp-button">WhatsApp</a>
+</body>
+</html>
